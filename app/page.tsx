@@ -116,7 +116,13 @@ export default function Home() {
   )
 }
 
-function FeatureCard({ icon, title, description }) {
+interface FeatureCardProps {
+  icon: React.ReactNode; // This is the type for React components or elements
+  title: string; // The title is a string
+  description: string; // The description is a string
+}
+
+const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md text-center">
       <div className="flex justify-center mb-4">{icon}</div>
@@ -125,8 +131,11 @@ function FeatureCard({ icon, title, description }) {
     </div>
   )
 }
-
-function SocialButton({ href, label }) {
+interface SocialButtonProps {
+  href: string; // 'href' should be a string
+  label: string; // 'label' should be a string
+}
+const SocialButton: React.FC<SocialButtonProps> = ({ href, label }) => {
   return (
     <a 
       href={href} 
