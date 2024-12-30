@@ -58,10 +58,10 @@ export default function Home() {
                 Introducing Dwarfy, the irresistible meme coin starring a lovable orange dwarf rabbit with an insatiable appetite!
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li><span className="font-semibold">Cute Overload:</span> Prepare for a surge of adorableness as Dwarfy's charming antics and insatiable appetite take over the crypto world.</li>
+                <li><span className="font-semibold">Cute Overload:</span> Prepare for a surge of adorableness as Dwarfys charming antics and insatiable appetite take over the crypto world.</li>
                 <li><span className="font-semibold">Community-Driven Fun:</span> Join a vibrant community of fellow rabbit enthusiasts and experience the joy of a truly decentralized and organic meme coin.</li>
-                <li><span className="font-semibold">Delicious Rewards:</span> Every transaction fuels Dwarfy's insatiable hunger, unlocking exclusive rewards and exciting community events.</li>
-                <li><span className="font-semibold">Low Market Cap Gem:</span> Hop in early and witness Dwarfy's meteoric rise as this adorable coin burrows its way into the hearts of crypto investors worldwide.</li>
+                <li><span className="font-semibold">Delicious Rewards:</span> Every transaction fuels Dwarfy s insatiable hunger, unlocking exclusive rewards and exciting community events.</li>
+                <li><span className="font-semibold">Low Market Cap Gem:</span> Hop in early and witness Dwarfys meteoric rise as this adorable coin burrows its way into the hearts of crypto investors worldwide.</li>
               </ul>
               <p className="text-sm italic">
                 Disclaimer: Investing in meme coins carries significant risk. Always conduct thorough research and invest responsibly.
@@ -132,8 +132,8 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) =
   )
 }
 interface SocialButtonProps {
-  href: string; // 'href' should be a string
-  label: string; // 'label' should be a string
+  href: string; // href should be a string
+  label: string; // label should be a string
 }
 const SocialButton: React.FC<SocialButtonProps> = ({ href, label }) => {
   return (
